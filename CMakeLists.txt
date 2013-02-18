@@ -105,6 +105,7 @@ OPTION(WT_NO_STD_WSTRING "Build Wt to run on a system without std::wstring suppo
 
 IF(APPLE)
   OPTION(USE_BOOST_FRAMEWORK "Uses a Boost framework" OFF)
+  SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -stdlib=libc++")
 ENDIF(APPLE)
 
 IF(NOT EXAMPLES_DESTINATION)

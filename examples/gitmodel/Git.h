@@ -9,6 +9,7 @@
 
 #include <stdexcept>
 #include <list>
+#include <string>
 #include <boost/array.hpp>
 
 /**
