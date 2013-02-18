@@ -1,0 +1,3 @@
+mkdir BUILD
+cd BUILD && \
+cmake .. -DBoost_NO_SYSTEM_PATHS='ON' -DWT_NO_BOOST_RANDOM='OFF' -DBOOST_ROOT=/Users/abigagli/develop/boost/INSTALL -DGM_PREFIX=/opt/local/ -DCMAKE_INSTALL_PREFIX=$HOME -DCONFIGDIR=$HOME/etc/wt -DCONFIGURATION=$HOME/etc/wt/wt_config.xml -DWTHTTP_CONFIGURATION=$HOME/etc/wt/wthttpd
